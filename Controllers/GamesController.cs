@@ -184,7 +184,7 @@ namespace RelationsNaN.Controllers
         }
 
 
-        public async Task<IActionResult> RemovePlatform(int gameId, int platformId)
+        public async Task<IActionResult> RemovePlatform(int id, int platformId)
         {
 
             Game game = await _context.Game.FindAsync(id);
